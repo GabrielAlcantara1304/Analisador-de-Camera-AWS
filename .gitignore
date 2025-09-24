@@ -1,0 +1,56 @@
+# SO/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.Python
+.venv/
+.env
+.env.*
+venv/
+build/
+dist/
+wheelhouse/
+pip-wheel-metadata/
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.pylint.d/
+*.log
+logs/
+
+# Lambda / Zips
+lambda.zip
+*.zip
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.*
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/crash.log
+terraform/*.tfvars
+terraform/*.tfvars.json
+
+# Node (caso futuramente use scripts)
+node_modules/
+
+# OS temp
+*.swp
+*.swo
+~$*
