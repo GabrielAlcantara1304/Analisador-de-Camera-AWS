@@ -47,6 +47,8 @@ terraform/crash.log
 terraform/*.tfvars
 terraform/*.tfvars.json
 terraform/providers/
+terraform.tfstate
+terraform.tfstate.*
 
 # Node (caso futuramente use scripts)
 node_modules/
